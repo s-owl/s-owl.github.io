@@ -1,11 +1,11 @@
 ---
 layout: default
-title : News
+title : 새 소식
 permalink: /news/
 ---
 <div align="center">
   <div class="home-content">
-  <h2>News</h2>
+  <h2>새 소식</h2>
   <ul class="post-list">
     {% for post in site.posts limit:20 %}
       <li>
@@ -17,6 +17,6 @@ permalink: /news/
       </li>
     {% endfor %}
   </ul>
-  <a href="{{ "/archive/" | prepend: site.baseurl }}"><button type="button" class="btn btn-default btn-lg">Go To News Archive</button></a>
+  <a href="{{ "/archive/" | prepend: site.baseurl }}"><button type="button" class="btn btn-default btn-lg">아카이브로 이동</button></a>
   </div>
 </div>
