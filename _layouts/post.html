@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div class="wrap-content">
+<div class="page-header">
+  <h1>{{ page.title }}<br><small>{{ page.date | date: "%Y.%m.%d" }}</small></h1>
+  {% if page.author %} {{ page.author }} {% endif %}
+</div>
+{{ content }}
+<hr>
+<!-- Pagination links -->
+{% if page.previous.url %}
+<p>Previous</p>
+<h3><a href="{{page.previous.url}}" >{{ page.previous.title }}</a></h3>
+<p>{{ page.previous.date | date: "%Y.%m.%d" }}</p>
+<hr>
+{% else %}
+{% endif %}
+{% if page.next.url %}
+<p>Next</p>
+<h3><a href="{{page.next.url}}" >{{ page.next.title }}</a></h3>
+<p>{{ page.next.date | date: "%Y.%m.%d" }}</p>
+<hr>
+{% else %}
+{% endif %}
+</div>

@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div align="center">
+  <section class="home-header">
+    <img width="200px" height="200px" src="img/logo.png"/>
+  <h1>SSS</h1>
+  <p>SKHU Sensible Secutiry<br />성공회대학교 정보보안/소프트웨어 연구 소모임</p>
+    <a href="{{ "/about/" | prepend: site.baseurl }}">
+    <button type="button" class="btn btn-lg btn-default">SSS 에 대해 알아보기</button>
+  </a>
+  </section>
+  <div class="home-content">
+  <h2>News</h2>
+  <ul class="post-list">
+    {% for post in site.posts limit:5 %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <span class="post-meta">{{ post.date | date: "%Y.%m.%d" }}{% if post.author %} | {{ post.author }} {% endif %}</span>
+      </li>
+    {% endfor %}
+  </ul>
+  </div>
+</div>
