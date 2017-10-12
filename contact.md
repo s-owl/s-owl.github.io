@@ -13,5 +13,5 @@ permalink: /contact/
     - +82-10-5489-5801
     - [junyoung@skhu-sss.com](mailto:junyoung@skhu-sss.com)
 - 동아리 운영진 이메일 주소로 연락
-  - [we.sss.you@gmail.com](mailto:we.sss.you@gmail.com)
   - [admin@skhu-sss.com](mailto:admin@skhu-sss.com)
+  - [we.sss.you@gmail.com](mailto:we.sss.you@gmail.com)
