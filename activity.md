@@ -15,5 +15,5 @@ permalink: /activity/
 [SSS 행사 목록](https://skhu-sss.github.io/wiki/events/)
 
 ## 프로젝트
-스터디, SSSCON, 개인 연구 등을 통해 쌓은 실력을 바탕으로 다양한 프로젝트를 진행합니다.
+스터디, SSSCON, 개인 연구 등을 통해 쌓은 실력을 바탕으로 다양한 프로젝트를 진행합니다.   
 [SSS 프로젝트 목록](https://skhu-sss.github.io/wiki/projects/)
