@@ -4,7 +4,7 @@ title: About SSS
 permalink: /about/
 ---
 
-![SSS LOGO](/img/logo.png)
+![S.OWLLOGO](/img/logo.png)
 
 - SSS(SKHU Sensible Security) 는 성공회대학교 정보보안/소프트웨어 연구개발 소모임 입니다.
 - 성공회대학교에서 2015년에 설립되어 유상신 교수님 지도 하에 지금까지 지속적으로 활동을 하고 있습니다.
