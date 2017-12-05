@@ -13,5 +13,4 @@ permalink: /contact/
     - +82-10-9156-6190
     - [munsoo@skhu-sss.com](mailto:nara@skhu-sss.com)
 - 동아리 운영진 이메일 주소로 연락
-  - [admin@skhu-sss.com](mailto:admin@skhu-sss.com)
-  - [we.sss.you@gmail.com](mailto:we.sss.you@gmail.com)
+  - [s.owl.contact@gmail.com](mailto:s.owl.contact@gmail.com)
