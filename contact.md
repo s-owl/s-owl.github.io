@@ -13,4 +13,4 @@ permalink: /contact/
     - +82-10-9156-6190
     - [kimdorung@gmail.com](mailto:kimdorung@gmail.com)
 - 동아리 운영진 이메일 주소로 연락
-  - [s.owl.contact@gmail.com](mailto:s.owl.contact@gmail.com)
+  - [{{site.email}}](mailto:{{site.email}})

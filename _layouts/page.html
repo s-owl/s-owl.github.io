@@ -1,9 +1,17 @@
 ---
 layout: default
 ---
-<div class="wrap-content">
-<div class="page-header">
-  <h1>{{ page.title }}<br></h1>
-</div>
-{{ content }}
-</div>
+<section class="hero is-light is-bold is-fullheight">
+  <div class="hero-body">
+    <div class="container">
+      {% include menu.html %}
+      <h1 class="title main-title">
+        <br>{{ page.title }}
+      </h1>
+      <div class="content">
+      {{ content }}
+    </div>
+    </div>
+  </div>
+  {% include footer.html %}
+</section>

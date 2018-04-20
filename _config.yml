@@ -7,11 +7,10 @@
 
 # Site settings
 title: S.OWL
-email: we.sss.you@gmail.com
-description: S.OWL - 성공회대학교 소프트웨어 연구개발 동아리
+email: s.owl.contact@gmail.com
+description: S.OWL(Sleepy Owl)은 성공회대학교 IT 창업 동아리이자, 소프트웨어 연구/개발 동아리 입니다.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://s-owl.github.io" # the base hostname & protocol for your site
-twitter_username: jekyllrb
 github_username:  s-owl
 
 # Build settings

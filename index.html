@@ -1,26 +1,43 @@
 ---
 layout: default
 ---
-<div align="center">
-  <section class="home-header">
-    <img width="200px" height="200px" src="img/logo.png"/>
-  <p><span class="typed"></span><span class="typed-cursor"></span><br /> 성공회대학교 소프트웨어 연구개발 소모임</p>
-    <a href="{{ "/about/" | prepend: site.baseurl }}">
-    <button type="button" class="btn btn-lg btn-default">S.OWL에 대해 알아보기</button>
-  </a>
-  </section>
-  <div class="home-content">
-  <h2>News</h2>
-  <ul class="post-list">
-    {% for post in site.posts limit:5 %}
-      <li>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        <span class="post-meta">{{ post.date | date: "%Y.%m.%d" }}{% if post.author %} | {{ post.author }} {% endif %}</span>
-      </li>
-    {% endfor %}
-  </ul>
+<section class="hero is-dark is-bold is-fullheight">
+  <div class="hero-body">
+    <div class="container">
+      <figure class="image is-96x96">
+        <img src="{{ "/img/logo.png" | prepend: site.baseurl }}">
+      </figure>
+      <h1 class="title main-title">
+        <br><span>성공회대학교</span><br>
+        <span id="slogan-part"></span><br>
+        <span>동아리</span><br>
+        <b><span id="org-name"></span></b>
+      </h1>
+      <h3>동아리 정보</h3><br>
+      <a class="button is-light is-outlined"
+        href="{{ "/about" | prepend: site.baseurl }}">소개</a>
+      <a class="button is-light is-outlined"
+        href="{{ "/activity" | prepend: site.baseurl }}">활동</a>
+      <a class="button is-light is-outlined"
+        href="{{ "/news" | prepend: site.baseurl }}">새 소식</a>
+      <a class="button is-light is-outlined"
+        href="{{ "/contact" | prepend: site.baseurl }}">연락하기</a>
+      <br><br><h3>외부 링크</h3><br>
+      <a class="button is-light is-outlined"
+        href="https://s-owl.github.io/wiki">동아리 위키</a>
+      <a class="button is-light is-outlined"
+        href="https://s-owl.slack.com">Slack</a>
+      <a class="button is-light is-outlined"
+        href="https://github.com/s-owl">GitHub</a>
+    </div>
   </div>
+</section>
+<div id="slogan-part-strs">
+    <p>IT 창업^1000</p>
+    <p>SW 연구/개발^1000</p>
+</div>
+<div id="org-name-strs">
+    <p>Sleepy Owl^1000</p>
+    <p>S.OWL^1000</p>
 </div>
 {% include custom_typed.html %}

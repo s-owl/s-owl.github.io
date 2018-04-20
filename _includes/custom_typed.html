@@ -1,7 +1,14 @@
 <script>
     document.addEventListener("DOMContentLoaded", function(){
-        Typed.new(".typed", {
-            strings: ["Sleepy Owl", "S.OWL"],
+        new Typed("#slogan-part", {
+            stringsElement: '#slogan-part-strs',
+            typeSpeed: 100,
+            loop : true,
+            loopCcount: null
+        });
+
+        new Typed("#org-name", {
+            stringsElement: '#org-name-strs',
             typeSpeed: 100,
             loop : true,
             loopCcount: null
