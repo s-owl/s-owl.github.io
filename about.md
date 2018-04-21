@@ -4,8 +4,7 @@ title: About S.OWL
 permalink: /about/
 ---
 
-![S.OWLLOGO](/img/logo.png)
-
+![](/img/logo-dark.svg){: width="256px" height="256px"}
 - S.OWL(Sleepy Owl) 은 성공회대학교 소프트웨어 연구/개발 소모임 입니다.
 - 성공회대학교에서 2017년에 설립되어 유상신 교수님과 김태우 교수님 지도 하에 지금까지 지속적으로 활동을 하고 있습니다.
 - 주로 소프트웨어 연구/개발을 주제로 회원들이 활동하고 있습니다.
