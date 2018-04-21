@@ -1,3 +1,3 @@
-# skhu-sss.github.io
+# s-owl.github.io
 
-S.OWLHomepage 소스코드 입니다.
+S.OWL Homepage 소스코드 입니다.
