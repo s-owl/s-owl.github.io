@@ -11,6 +11,6 @@ permalink: /contact/
     - [nr970810@gmail.com](mailto:nr970810@gmail.com)
   - 김문수 부회장
     - +82-10-9156-6190
-    - [kimdorung@gmail.com](mailto:kimdorung@gmail.com)
+    - [s201732004@gmail.com](mailto:s201732004@gmail.com)
 - 동아리 운영진 이메일 주소로 연락
   - [{{site.email}}](mailto:{{site.email}})
